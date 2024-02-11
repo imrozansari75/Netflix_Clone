@@ -272,10 +272,6 @@ select {
     transition: 0.3s;
 }
 
-.faqbox span i:hover {
-    transform: rotate(45deg);
-}
-
 .faqbtn {
     margin: 40px auto;
 }
