@@ -291,7 +291,7 @@ footer {
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 10pxpx;
 }
 
 @media screen and (max-width: 1300px) {
