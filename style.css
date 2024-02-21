@@ -306,102 +306,148 @@ footer {
 
 @media screen and (max-width: 480px) {
     .main {
-        height: 55vh;
+        height: 65vh;
     }
+
     .main .box {
-        height: 55vh;
+        height: 65vh;
         opacity: 0.65;
         background-color: black;
     }
-    nav{
+
+    nav {
         max-width: 90%;
     }
+
     nav img {
         width: 90px;
     }
-    .hero{
+
+    .hero {
         margin-top: 70px;
         padding: 0px 15px;
     }
-    .inputhai{
+
+    .inputhai {
         flex-direction: column;
     }
-    .inputhai :first-child{
+
+    .inputhai :first-child {
         width: 60vw;
     }
-    .red-btn{
+
+    .red-btn {
         margin-top: 20px;
     }
-.hero> :first-child {
-    font-weight: 900;
-    font-size: 30px;
-}
 
-.hero> :nth-child(2) {
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-}
+    .hero> :first-child {
+        font-weight: 900;
+        font-size: 30px;
+    }
 
-.hero> :nth-child(3) {
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-}
-.second{
-    display: flex;
-    margin: 6vh auto;
-    text-align: center;
-    flex-direction: column;
-}
+    .hero> :nth-child(2) {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+    }
 
-.second>div :nth-child(1) {
-    font-size: 30px;
-    font-weight: bolder;
-}
+    .hero> :nth-child(3) {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+    }
 
-.second>div :nth-child(2) {
-    font-size: 16px;
-}
+    .second {
+        display: flex;
+        margin: 6vh auto;
+        text-align: center;
+        flex-direction: column;
+    }
 
-.Secimg img {
-    width: 90vw;
-    position: relative;
-    z-index: 10;
-}
-.Secimg video {
-    width: 70vw;
-    position: absolute;
-    top: 56px;
-    right: 50px;
-}
+    .second>div :nth-child(1) {
+        font-size: 30px;
+        font-weight: bolder;
+    }
 
-.third{
-    height: 48vh ;
-    
-}
-.imroz img {
-    width: 90vw;
-    position: absolute;
-    margin: 10px auto;  
-    top: 225px;
-}
+    .second>div :nth-child(2) {
+        font-size: 16px;
+    }
 
-.third >div :first-child{
-    width: 80%;
-}
+    .Secimg img {
+        width: 90vw;
+        position: relative;
+        z-index: 10;
+    }
 
-.third :nth-child(2) {
-    width: 90vw;;
-    position: absolute;
-    top: 1150px;
-    align-items: center;
-    margin: auto;
-}
+    .Secimg video {
+        width: 70vw;
+        position: absolute;
+        top: 56px;
+        right: 50px;
+    }
 
-}
+    .third {
+        height: 45vh;
 
-.footer a {
-    font-size: 14px;
-    color: #ccc;
+    }
+
+    .imroz img {
+        width: 90vw;
+        position: absolute;
+        margin: 10px auto;
+        top: 200px;
+    }
+
+    .third>div :first-child {
+        width: 80%;
+    }
+
+    .third :nth-child(2) {
+        width: 90vw;
+        ;
+        position: absolute;
+        top: 1250px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .fourth {
+        height: 48vh;
+
+    }
+
+    .afroz img {
+        width: 90vw;
+    }
+
+    .afroz video {
+        width: 56vw;
+    }
+
+    .afroz :nth-child(2) {
+        width: 90vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .faq {
+        padding: 0 10px;
+    }
+
+    .faqbox {
+        font-size: 16px;
+    }
+
+    .faq h2 {
+        font-size: 30px;
+    }
+
+    footer {
+        max-width: 92vw;
+        padding: 20px 5px;
+    }
+
+    .footer-item {
+        font-size: 16px;
+    }
 }
